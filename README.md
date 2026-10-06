@@ -319,13 +319,13 @@ working-capital-analytics/
 │       └── Working_capital_cleaned.csv
 │
 ├── notebooks/
-│   ├── 01_Data_Profiling.ipynb
-│   ├── 02_Data_Quality.ipynb
-│   ├── 03_04_Data_Cleaning_and_Validation.ipynb
-│   ├── 05_Repeatable_Python_ETL_Pipeline.ipynb
-│   ├── 06_MySQL_Data_Architecture_and_Loading.ipynb
-│   ├── 07_Analytics_Engineering.ipynb
-│   └── 08_SQL_Financial_Analysis.ipynb
+│   ├── ANALYTICS-ENGINEERING.ipynb
+│   ├── Data_Cleaning_and_Validation.ipynb
+│   ├── Data_Profiling.ipynb
+│   ├── Data_Quality.ipynb
+│   ├── MYSQL-DATA-ARCHITECTURE & LOADING.ipynb
+│   ├── REPEATABLE PYTHON ETL PIPELINE.ipynb
+│   └── SQL-FINANCIAL-ANALYSIS.ipynb
 │
 ├── powerbi/
 │   └── Working_Capital_Analytics.pbix
@@ -399,7 +399,7 @@ The project is structured so that the analytical workflow can be followed from t
 Start with:
 
 ```text
-01_Data_Profiling.ipynb
+Data_Profiling.ipynb
 ```
 
 This documents the initial state of the dataset.
@@ -409,7 +409,7 @@ This documents the initial state of the dataset.
 Run:
 
 ```text
-02_Data_Quality.ipynb
+Data_Quality.ipynb
 ```
 
 This identifies the main quality issues and establishes the validation requirements.
@@ -419,7 +419,7 @@ This identifies the main quality issues and establishes the validation requireme
 Run:
 
 ```text
-03_04_Data_Cleaning_and_Validation.ipynb
+Data_Cleaning_and_Validation.ipynb
 ```
 
 This produces the cleaned analytical dataset and applies the business rules.
@@ -429,7 +429,7 @@ This produces the cleaned analytical dataset and applies the business rules.
 Run:
 
 ```text
-05_Repeatable_Python_ETL_Pipeline.ipynb
+REPEATABLE PYTHON ETL PIPELINE.ipynb
 ```
 
 This demonstrates how the transformation process can be repeated rather than relying solely on manual cleaning.
@@ -439,7 +439,7 @@ This demonstrates how the transformation process can be repeated rather than rel
 Run:
 
 ```text
-06_MySQL_Data_Architecture_and_Loading.ipynb
+MYSQL-DATA-ARCHITECTURE & LOADING.ipynb
 ```
 
 This creates and loads the database architecture.
@@ -449,7 +449,7 @@ This creates and loads the database architecture.
 Run:
 
 ```text
-07_Analytics_Engineering.ipynb
+ANALYTICS-ENGINEERING.ipynb
 ```
 
 This creates the business-ready analytical models.
@@ -459,7 +459,7 @@ This creates the business-ready analytical models.
 Run:
 
 ```text
-08_SQL_Financial_Analysis.ipynb
+SQL-FINANCIAL-ANALYSIS.ipynb
 ```
 
 This generates the financial analysis tables used by the reporting layer.
